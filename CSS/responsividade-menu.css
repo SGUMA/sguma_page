@@ -1,0 +1,29 @@
+
+@media screen and (max-width:839x) {
+   #menu{
+    width: 250px;
+   }
+}
+@media screen and (max-width:837px) {
+   nav{
+    width: 0px;
+    overflow: hidden;
+   }
+   header {
+    display:flex;
+    justify-content: space-between
+   }
+   .oculto{
+    display: flex;
+    justify-content: start;
+    font-size: 40px;
+    color: white;
+   }
+   .fechar-menu{
+    display: flex;
+   }
+   #conteudo{
+    margin-left: 0px;
+   }
+}
+
