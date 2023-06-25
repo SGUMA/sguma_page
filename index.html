@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/estilo.css">
     <link rel="stylesheet" href="./assets/css/responsividade-menu.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
 </head>
-<body>
-<!--Pagina inicial-->
-    
- 
+<body style="font-family: 'Montserrat', sans-serif;">
+  
   <header>
     <a class="oculto" href="#" class="btn-abrir" onclick="abrir_menu()" style="color: white;">&#9776; </a>  
     <div style="display:flex; flex-flow: row; padding-right: 15px;">
@@ -43,53 +42,46 @@
     </div>
   </nav>
   <main id="conteudo">
-    <div class="container-fluid"> <!--Main-->
+    <div class=""> <!--Main-->
       <!--Dashboard-->
     <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-      <h2>Dashboard</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eos. 
-      Nulla, optio facere! Quisquam magnam perspiciatis aliquid labore quia nulla odit magni est hic. 
-      Atque quis ipsum expedita perspiciatis nostrum.</p>
+      <h2 class="fw-bold">Dashboard</h2>
+      <p class="text-break">Acompanhe o desempenho, métricas e 
+        estatísticas essenciais <br>da Universidade Metodista de Angola em um só lugar.</p>
   
       <!--card-->
       <div class="container-fluid"> 
           <div class="container"> 
               <div class="cards"> 
                   <div class=""> 
-                      <div class="card" style="width: 18rem;">
-                          <img src="./assets/image/tumas.png" class="card-img-top" alt="..." style="height: 170px;">
-                          <h5 class="card-title text-center">Turmas</h5>
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
+                      <a href="#">
+                        <div class="card text-center" style="width: 18rem;">
+                          <img src="./assets/image/business.png" 
+                          class="card-img-top w-50  mx-auto d-block mb-4 mt-2" alt="..." 
+                          style="height: 202px;">
+                          <h5 class="card-title text-center fw-semibold">Gestão de Avaliações</h5>
                         </div>
+                      </a>
                   </div>
                   <div class=""> 
-                      <div class="card" style="width: 18rem;">
-                          <img src="./assets/image/avaliacoes.png" class="card-img-top" alt="..." style="height: 170px;">
-                          <h5 class="card-title text-center">Avaliações</h5>
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
+                      <a href="#">
+                        <div class="card text-center" style="width: 18rem;">
+                          <img src="./assets/image/clock.png" 
+                          class="card-img-top w-50 mx-auto d-block mb-4 mt-2" alt="..." 
+                          style="height: 178px;">
+                          <h5 class="card-title text-center fw-semibold">Gestão de Sumarios e Assiduidade</h5>
                         </div>
+                      </a>
                   </div>
                   <div class=""> 
-                      <div class="card" style="width: 18rem;">
-                          <img src="./assets/image/aulas.png" class="card-img-top" alt="..." style="height: 170px;">
-                          <h5 class="card-title text-center">Aulas</h5>
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        </div>
-                  </div>
-                  <div class=""> 
-                      <div class="card" style="width: 18rem;">
-                          <img src="./assets/image/trabalhos.png" class="card-img-top" alt="..." style="height: 170px;">
-                          <h5 class="card-title text-center">Trabalhos</h5>
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        </div>
+                     <a href="#">
+                      <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/image/management.png" 
+                        class="card-img-top w-50 mx-auto d-block mb-4 mt-2" alt="..." 
+                        style="height: 202px;">
+                        <h5 class="card-title text-center fw-semibold">Gestão de Horário</h5>
+                </div>
+                     </a>
                   </div>
               </div>
           </div>
