@@ -1,14 +1,15 @@
 @font-face {
     font-family: 'Montserrat', sans-serif;
-    src: url("../vendor/fonts/Montserrat-ExtraLight.ttf");
+    src: url("../vendor/fonts/Montserrat-ExtraLight.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Raleway', sans-serif;
-    src: url("../vendor/fonts/Raleway-ExtraLight.ttf");
+    src: url("../vendor/fonts/Raleway-ExtraLight.ttf") format('truetype');
+    font-size: 200px;
 }
 
 @font-face {
     font-family: 'SourceSans3', sans-serif;
-    src: url("../vendor/fonts/SourceSans3-ExtraLight.ttf");
+    src: url("../vendor/fonts/SourceSans3-ExtraLight.ttf") format('truetype');
 }

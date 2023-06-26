@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="./assets/css/responsividade-menu.css">
     <link rel="stylesheet" href="./assets/css/font.css">
 </head>
-<body style="font-family: 'Montserrat', sans-serif;">
+<body style=" font-family: 'Montserrat', sans-serif!; font-size: 13px;">
   
-  <header>
+  <header style="font-family: 'Raleway', sans-serif !; ">
     <a class="oculto" href="#" class="btn-abrir" onclick="abrir_menu()" style="color: white;">&#9776; </a>  
     <div style="display:flex; flex-flow: row; padding-right: 15px;">
     <div class="foto">
@@ -22,7 +22,7 @@
     <p> nome do utilizador</p>
   </div>
   </header>
-  <nav  id="menu">
+  <nav  id="menu" style="font-family: 'SourceSans3', sans-serif !; font-size: 13px;">
     <div class="container">
       
       <div class="row">
@@ -45,7 +45,7 @@
     <div class=""> <!--Main-->
       <!--Dashboard-->
     <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-      <h2 class="fw-bold">Dashboard</h2>
+      <h2 class="fw-semibold" style="font-family: Montserrat !;">Dashboard</h2>
       <p class="text-break">Acompanhe o desempenho, métricas e 
         estatísticas essenciais <br>da Universidade Metodista de Angola em um só lugar.</p>
   
@@ -59,7 +59,7 @@
                           <img src="./assets/image/business.png" 
                           class="card-img-top w-50  mx-auto d-block mb-4 mt-2" alt="..." 
                           style="height: 202px;">
-                          <h5 class="card-title text-center fw-semibold">Gestão de Avaliações</h5>
+                          <h5 class="card-title text-center ">Gestão de Avaliações</h5>
                         </div>
                       </a>
                   </div>
@@ -69,7 +69,7 @@
                           <img src="./assets/image/clock.png" 
                           class="card-img-top w-50 mx-auto d-block mb-4 mt-2" alt="..." 
                           style="height: 178px;">
-                          <h5 class="card-title text-center fw-semibold">Gestão de Sumarios e Assiduidade</h5>
+                          <h5 class="card-title text-center ">Gestão de Sumarios e Assiduidade</h5>
                         </div>
                       </a>
                   </div>
@@ -79,7 +79,7 @@
                         <img src="./assets/image/management.png" 
                         class="card-img-top w-50 mx-auto d-block mb-4 mt-2" alt="..." 
                         style="height: 202px;">
-                        <h5 class="card-title text-center fw-semibold">Gestão de Horário</h5>
+                        <h5 class="card-title text-center ">Gestão de Horário</h5>
                 </div>
                      </a>
                   </div>
@@ -90,7 +90,39 @@
   
     </div>
     <!--Fim Dashboard-->
+    <!--Sumarios recentes-->
+
+      <div class="container shadow-lg p-3 mb-5 bg-body-tertiary gap-3" style="display: flex; align-items: stretch;">
+        <div class="card w-50 text-white ">
+          <div class="card-body rounded" style="background-color: #271812;">
+            <h5 class="card-title">Total de horas</h5>
+            <p class="card-text">Resumo de horas feita durante o periodo de aula</p>
+            <div class="progresso row">
+              <div class="col">
+               <div class="emlinha d-flex gap-3">
+                <p class="pr2">IHC</p>
+                <div class="progress" role="progressbar" aria-label="Info example" 
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                  <div class="progress-bar text-white" style="width: 50%; background-color: gray;">50%</div>
+               </div>
+              </div>
+              <div class="emlinha2 d-flex gap-3">
+                <p>PCM</p>
+                <div class="progress" role="progressbar" aria-label="Info example" 
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                  <div class="progress-bar text-white" style="width: 50%; background-color: gray;">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="card w-50 text-white" style="border: none;">
+        <div class="card-body rounded">
+          <h5 class="card-title text-center text-black">Sumários recentes</h5>  
     </div>
+    </div>
+      </div>
   </main>
 
 
