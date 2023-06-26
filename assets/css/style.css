@@ -2,6 +2,7 @@ body{
     margin: 0px;
       background: #eeeeee;
       font-size: 13px;
+      
 }
 a{
 text-decoration: none;
@@ -45,6 +46,7 @@ nav{
     z-index: 1;
     overflow: hidden;
     transition: width 0.3s;
+   
 }
 
 nav .fechar-menu{
@@ -85,8 +87,12 @@ main{
     flex-wrap: wrap;
     gap: 20px;
 }
-
 h5{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.topo{
+    display:flex; 
+    flex-flow: row; 
+    padding-right: 15px;
 }
 
