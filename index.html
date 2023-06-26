@@ -16,27 +16,29 @@
   
   <header style="font-family: 'Raleway', sans-serif !; ">
     <a class="oculto" href="#" class="btn-abrir" onclick="abrir_menu()" style="color: white;">&#9776; </a>  
-    <div style="display:flex; flex-flow: row; padding-right: 15px;">
+    <di class="topo">
     <div class="foto">
     </div>
-    <p> nome do utilizador</p>
+    <div id="nome-utilizador"><p> nome do utilizador</p></div> 
   </div>
   </header>
   <nav  id="menu" style="font-family: 'SourceSans3', sans-serif !; font-size: 13px;">
     <div class="container">
+  <nav  id="menu" >
+    <div class="container" >
       
       <div class="row">
-        <div class="col-3 " style="height: 100vh;background-color: #3a3636; margin-left: -12px ;" >
+        <div class="col-3" style="height: 100vh; background-color: #3a3636; margin-left: -12px ;" >
           <div  class=" mt-5 pt-5 h-1 " style="color:beige; " >
           </div>
         </div>
         <div class="col-8 mt-5">
-            <a href="#" class="fechar-menu" onclick="fechar_menu()">&times; Fechar menu</a>
-            <a href="#">Página Inicial</a>
-            <a href="#">Avaliações</a>
-            <a href="#">Dashbord</a>
-            <a href="#">Sumários</a>
-            <a href="#">Terminar sessão</a>
+            <a href="#" class="fechar-menu" onclick="fechar_menu()" style="background-color:  #8b8b8b;">&times; Fechar menu</a>
+            <a href="#"> <i class="fa-solid fa-house" style="padding-right: 5px;"></i>  Página Inicial</a>
+            <a href="#"><i class="fa-regular fa-clipboard" style="padding-right: 5px;"></i> Avaliações</a>
+            <a href="#"><i class="fa-solid fa-arrow-trend-up" style="padding-right: 5px;"></i> Dashbord</a>
+            <a href="#"><i class="fa-regular fa-calendar-xmark" style="padding-right: 5px;"></i> Sumários</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket" style="padding-right: 5px;"></i> Terminar sessão</a>
         </div>
       </div>
     </div>
