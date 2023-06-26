@@ -8,7 +8,7 @@ a{
 text-decoration: none;
 }
 header{
-    background-color: #3b3533;
+    background-color: #202033;
     padding: 30px 0px 10px 10px;
     padding-bottom: 30px; 
     display: flex; 
@@ -39,7 +39,7 @@ nav{
     margin-top: 130px;
     height: 90%;
     width: 300px;
-    background-color: #5a5a5a;
+    background-color: #1F2952;
     position: fixed;
     top: 0;
     left: 0;
